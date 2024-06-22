@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #F75C4C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #F75C4C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.consultation-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consultation-item {
+    background-color: white;
+    color: #333;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.consultation-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

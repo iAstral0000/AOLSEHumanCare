@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #F75C4C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.container {
+    background-color: #F75C4C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.map img, .hospital-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.hospital-info {
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.hospital-info p {
+    margin: 10px 0;
+}
+
+.hospital-info a {
+    color: #F75C4C;
+    text-decoration: none;
+}
+
+.hospital-info a:hover {
+    text-decoration: underline;
+}
+
+.hospital-info img {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
